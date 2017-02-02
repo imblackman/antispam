@@ -340,12 +340,238 @@ This command will send text to [group_id]
 Check @Ens_Commands
 ]],
     help_text = [[
-To see bot commands 🔰
-Checkout this channel 👉 @Ens_Commands
+1 | ساخت یا افزودن گروه
+
+ℹ️ (!/#)creategroup groupname *sudo only
+ℹ️ (!/#)createrealm realmname *sudo only
+ℹ️ (!/#)add 
+ℹ️ (!/#)rem
+
+2 | ترفیع و تنزیل 
+
+ℹ️ (!/#)addadmin @username *sudo only
+ℹ️ (!/#)remadmin @username *sudo only
+ℹ️ (!/#)setowner @username
+ℹ️ (!/#)promote
+ℹ️ (!/#)demote
+ℹ️ (!/#)mp
+ℹ️ (!/#)md
+ℹ️ (!/#)+support
+ℹ️ (!/#)-support
+
+3 | تنظیمات گروه 
+
+ℹ️ (!/#)setname name
+ℹ️ (!/#)setphoto / then send your photo
+ℹ️ (!/#)setrules rules
+ℹ️ (!/#)rules
+ℹ️ (!/#)setabout
+ℹ️ (!/#)about
+
+4 | اخراج و بن
+
+ℹ️ (!/#)kick
+ℹ️ (!/#)ban
+ℹ️ (!/#)unban 
+ℹ️ (!/#)banall 
+ℹ️ (!/#)unbanall 
+ℹ️ (!/#)silent @username
+ℹ️ (!/#)mute all
+
+5 | ممنوعیت ها و قفل ها
+
+ℹ️ (!/#)lock 
+links/contacts/flood/spam/arabick/member/rtl/tgservice/sticker/tag/emoji/english/fwd/reply/join/username/media/fosh/leave/bots/operator/public/strict
+
+Switches : etehad/all
+
+ℹ️ (!/#)unlock 
+links/contacts/flood/spam/arabick/member/rtl/tgservice/sticker/tag/emoji/english/fwd/reply/join/username/media/fosh/leave/bots/operator/public/strict
+
+Switches : etehad/all
+
+ℹ️ (!/#)setflood (5-15)
+
+6 | خروج بدون امکان بازگشت در سوپرگروه برای ممبرها
+
+ℹ️ kickme / yes
+
+7 | دریافت اطلاعات
+
+ℹ️ (!/#)id
+ℹ️ (!/#)info
+ℹ️ (!/#)gpinfo
+ℹ️ (!/#)me
+
+8 | فیلتر کردن کلمات
+
+ℹ️ (!/#)filter word
+ℹ️ (!/#)unfilter word 
+ℹ️ (!/#)filterlist
+ℹ️ (!/#)lock fosh
+
+9 | لینک گروه
+
+ℹ️ (!/#)link
+ℹ️ (!/#)newlink
+ℹ️ (!/#)setlink / send the link
+ℹ️ (!/#)linkpv
+
+10 | مدیریت پلاگین ها (فقط برای سودو)
+
+ℹ️ (!/#)plugins
+ℹ️ (!/#)plugins +|-
+ℹ️ (!/#)plugins ?
+ℹ️ (!/#)addplug
+ℹ️ (!/#)getplug
+ℹ️ (!/#)remplug
+ℹ️ (!/#)send
+
+11 | کمک ادمین ها و مدیران
+
+ℹ️ (!/#)active
+ℹ️ (!/#)clean msg num.
+ℹ️ (!/#)invite 
+ℹ️ (!/#)leave
+ℹ️ (!/#)price
+ℹ️ (!/#)serverinfo
+ℹ️ (!/#)warn
+ℹ️ (!/#)unwarn
+ℹ️ (!/#)whitelist
+ℹ️ (!/#)clean whitelist
+
+12 | پلاگین های تفریحی 
+
+ℹ️ (!/#)abjad متن
+ℹ️ (!/#)aparat اسم فیلم
+ℹ️ (!/#)music singer
+ℹ️ (!/#)arz
+ℹ️ (!/#)caption
+ℹ️ (!/#)fal
+ℹ️ (!/#)danestani
+ℹ️ (!/#)date
+ℹ️ (!/#)time
+ℹ️ (!/#)qr
+ℹ️ (!/#)tr
+ℹ️ (!/#)weather
+ℹ️ (!/#)write
 ]],
 	help_text_super =[[
-To see bot commands 🔰
-Checkout this channel 👉 @Ens_Commands
+1 | ساخت یا افزودن گروه
+
+ℹ️ (!/#)creategroup groupname *sudo only
+ℹ️ (!/#)createrealm realmname *sudo only
+ℹ️ (!/#)add 
+ℹ️ (!/#)rem
+
+2 | ترفیع و تنزیل 
+
+ℹ️ (!/#)addadmin @username *sudo only
+ℹ️ (!/#)remadmin @username *sudo only
+ℹ️ (!/#)setowner @username
+ℹ️ (!/#)promote
+ℹ️ (!/#)demote
+ℹ️ (!/#)mp
+ℹ️ (!/#)md
+ℹ️ (!/#)+support
+ℹ️ (!/#)-support
+
+3 | تنظیمات گروه 
+
+ℹ️ (!/#)setname name
+ℹ️ (!/#)setphoto / then send your photo
+ℹ️ (!/#)setrules rules
+ℹ️ (!/#)rules
+ℹ️ (!/#)setabout
+ℹ️ (!/#)about
+
+4 | اخراج و بن
+
+ℹ️ (!/#)kick
+ℹ️ (!/#)ban
+ℹ️ (!/#)unban 
+ℹ️ (!/#)banall 
+ℹ️ (!/#)unbanall 
+ℹ️ (!/#)silent @username
+ℹ️ (!/#)mute all
+
+5 | ممنوعیت ها و قفل ها
+
+ℹ️ (!/#)lock 
+links/contacts/flood/spam/arabick/member/rtl/tgservice/sticker/tag/emoji/english/fwd/reply/join/username/media/fosh/leave/bots/operator/public/strict
+
+Switches : etehad/all
+
+ℹ️ (!/#)unlock 
+links/contacts/flood/spam/arabick/member/rtl/tgservice/sticker/tag/emoji/english/fwd/reply/join/username/media/fosh/leave/bots/operator/public/strict
+
+Switches : etehad/all
+
+ℹ️ (!/#)setflood (5-15)
+
+6 | خروج بدون امکان بازگشت در سوپرگروه برای ممبرها
+
+ℹ️ kickme / yes
+
+7 | دریافت اطلاعات
+
+ℹ️ (!/#)id
+ℹ️ (!/#)info
+ℹ️ (!/#)gpinfo
+ℹ️ (!/#)me
+
+8 | فیلتر کردن کلمات
+
+ℹ️ (!/#)filter word
+ℹ️ (!/#)unfilter word 
+ℹ️ (!/#)filterlist
+ℹ️ (!/#)lock fosh
+
+9 | لینک گروه
+
+ℹ️ (!/#)link
+ℹ️ (!/#)newlink
+ℹ️ (!/#)setlink / send the link
+ℹ️ (!/#)linkpv
+
+10 | مدیریت پلاگین ها (فقط برای سودو)
+
+ℹ️ (!/#)plugins
+ℹ️ (!/#)plugins +|-
+ℹ️ (!/#)plugins ?
+ℹ️ (!/#)addplug
+ℹ️ (!/#)getplug
+ℹ️ (!/#)remplug
+ℹ️ (!/#)send
+
+11 | کمک ادمین ها و مدیران
+
+ℹ️ (!/#)active
+ℹ️ (!/#)clean msg num.
+ℹ️ (!/#)invite 
+ℹ️ (!/#)leave
+ℹ️ (!/#)price
+ℹ️ (!/#)serverinfo
+ℹ️ (!/#)warn
+ℹ️ (!/#)unwarn
+ℹ️ (!/#)whitelist
+ℹ️ (!/#)clean whitelist
+
+12 | پلاگین های تفریحی 
+
+ℹ️ (!/#)abjad متن
+ℹ️ (!/#)aparat اسم فیلم
+ℹ️ (!/#)music singer
+ℹ️ (!/#)arz
+ℹ️ (!/#)caption
+ℹ️ (!/#)fal
+ℹ️ (!/#)danestani
+ℹ️ (!/#)date
+ℹ️ (!/#)time
+ℹ️ (!/#)qr
+ℹ️ (!/#)tr
+ℹ️ (!/#)weather
+ℹ️ (!/#)write
 ]],
   }
   serialize_to_file(config, './data/config.lua')
